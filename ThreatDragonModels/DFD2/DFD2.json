@@ -1,0 +1,29 @@
+{
+  "version": "2.6.2",
+  "release_version": "1",
+  "released_at": "2026-10-31",
+  "summary": {
+    "title": "DFD2",
+    "owner": "luispee",
+    "description": "DFD Practico 5",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "DFD2",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "v1"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "luispee",
+    "threatTop": 0
+  }
+}
