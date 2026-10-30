@@ -33,7 +33,8 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "36761d18-ccec-441c-8b39-437b5c0c65a0",
-                "70bc1ddb-1c05-4df0-82bc-d426ce58fa0c"
+                "70bc1ddb-1c05-4df0-82bc-d426ce58fa0c",
+                "960bb1cd-3285-4bf5-b35c-9f8a72ed38d7"
               ],
               "containedElements": [
                 "18b939de-fe3b-464e-b743-4c14040a1074",
@@ -46,17 +47,17 @@
             ],
             "id": "48fcabf6-1f93-4dfe-8a06-bc301cf4dce4",
             "source": {
-              "x": -1730,
-              "y": -440
+              "x": -1650,
+              "y": -380
             },
             "target": {
-              "x": -930,
-              "y": -630
+              "x": -850,
+              "y": -570
             },
             "vertices": [
               {
-                "x": -1210,
-                "y": -420
+                "x": -1130,
+                "y": -360
               }
             ]
           },
@@ -76,7 +77,8 @@
                 "36761d18-ccec-441c-8b39-437b5c0c65a0",
                 "70bc1ddb-1c05-4df0-82bc-d426ce58fa0c",
                 "928137ba-77e4-4fe2-9357-ffc620f20a04",
-                "960bb1cd-3285-4bf5-b35c-9f8a72ed38d7"
+                "960bb1cd-3285-4bf5-b35c-9f8a72ed38d7",
+                "4a745962-9c91-4142-8ef3-6e852c795a93"
               ],
               "containedElements": [
                 "d2e11c1c-724e-45b3-8dc6-097a74b14121",
@@ -117,7 +119,6 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "21c4b99d-4feb-4b56-a5d3-b49b7b7d826b",
-                "e198d5bf-fa6a-4d6d-b76e-761b8bf2bb56",
                 "928137ba-77e4-4fe2-9357-ffc620f20a04",
                 "4a745962-9c91-4142-8ef3-6e852c795a93"
               ],
@@ -148,8 +149,8 @@
           },
           {
             "position": {
-              "x": -1500,
-              "y": -590
+              "x": -1452.5,
+              "y": -460
             },
             "size": {
               "width": 112.5,
@@ -265,8 +266,8 @@
           },
           {
             "position": {
-              "x": -1242,
-              "y": -520
+              "x": -1220,
+              "y": -480
             },
             "size": {
               "width": 60,
@@ -497,60 +498,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Credenciales\ngestión",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "db499736-4e3d-48bb-99f6-5383fd8aa40a"
-              ]
-            },
-            "labels": [
-              "Credenciales\ngestión"
-            ],
-            "id": "e198d5bf-fa6a-4d6d-b76e-761b8bf2bb56",
-            "source": {
-              "x": -1430,
-              "y": -230
-            },
-            "target": {
-              "cell": "57915642-07bc-4cdd-9185-711e4ac93527",
-              "port": "39a5392b-64ae-478f-8efe-a4bf1bd77e10"
-            },
-            "vertices": [
-              {
-                "x": -1320,
-                "y": -230
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Sesión",
               "description": "",
               "outOfScope": false,
@@ -630,8 +577,8 @@
             },
             "vertices": [
               {
-                "x": -1180,
-                "y": -560
+                "x": -1150,
+                "y": -500
               }
             ]
           },
@@ -685,12 +632,8 @@
             },
             "vertices": [
               {
-                "x": -1100,
-                "y": -370
-              },
-              {
-                "x": -1040,
-                "y": -310
+                "x": -1060,
+                "y": -340
               }
             ]
           },
@@ -744,8 +687,8 @@
             },
             "vertices": [
               {
-                "x": -1070,
-                "y": -460
+                "x": -1030,
+                "y": -430
               }
             ]
           },
@@ -798,15 +741,15 @@
             },
             "vertices": [
               {
-                "x": -1130,
-                "y": -240
+                "x": -1110,
+                "y": -210
               }
             ]
           },
           {
             "position": {
-              "x": -1130,
-              "y": -620
+              "x": -1080,
+              "y": -520
             },
             "size": {
               "width": 120,
@@ -929,8 +872,8 @@
           },
           {
             "position": {
-              "x": -1540,
-              "y": -260
+              "x": -1520,
+              "y": -270
             },
             "size": {
               "width": 112.5,
@@ -1287,8 +1230,8 @@
           },
           {
             "position": {
-              "x": -1302,
-              "y": -200
+              "x": -1280,
+              "y": -270
             },
             "size": {
               "width": 60,
@@ -1527,8 +1470,8 @@
           },
           {
             "position": {
-              "x": -940,
-              "y": -160
+              "x": -970,
+              "y": -190
             },
             "size": {
               "width": 120,
@@ -1651,8 +1594,8 @@
           },
           {
             "position": {
-              "x": -713,
-              "y": -220
+              "x": -793,
+              "y": -190
             },
             "size": {
               "width": 120,
@@ -1816,7 +1759,7 @@
             },
             "target": {
               "cell": "9ad20b65-6cc9-4379-8bfb-abbf921665fa",
-              "port": "fc0ddbff-2da1-49e7-a371-bdadd310e8a9"
+              "port": "27065cb0-a528-4d40-a85b-a677180f3378"
             }
           },
           {
@@ -1851,6 +1794,7 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
+                "48fcabf6-1f93-4dfe-8a06-bc301cf4dce4",
                 "f7121b21-bc9c-4eba-81ec-c19fca0545d2"
               ]
             },
@@ -1859,14 +1803,18 @@
             ],
             "id": "960bb1cd-3285-4bf5-b35c-9f8a72ed38d7",
             "source": {
-              "x": -1210,
-              "y": -460
+              "cell": "13a54e15-563c-4be6-988f-cbc47edeca2d",
+              "port": "8291f805-4fbb-4ca9-aa36-d1943e9f6319"
             },
             "target": {
               "cell": "8a8de5af-51b6-45a6-9c32-90aacc7d4a20",
               "port": "fc0ddbff-2da1-49e7-a371-bdadd310e8a9"
             },
             "vertices": [
+              {
+                "x": -1150,
+                "y": -350
+              },
               {
                 "x": -1040,
                 "y": -220
@@ -1905,6 +1853,7 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
+                "f7121b21-bc9c-4eba-81ec-c19fca0545d2",
                 "db499736-4e3d-48bb-99f6-5383fd8aa40a"
               ]
             },
@@ -1913,8 +1862,8 @@
             ],
             "id": "4a745962-9c91-4142-8ef3-6e852c795a93",
             "source": {
-              "x": -930,
-              "y": -210
+              "cell": "d2e11c1c-724e-45b3-8dc6-097a74b14121",
+              "port": "8291f805-4fbb-4ca9-aa36-d1943e9f6319"
             },
             "target": {
               "cell": "57915642-07bc-4cdd-9185-711e4ac93527",
@@ -1924,8 +1873,209 @@
               {
                 "x": -990,
                 "y": -200
+              },
+              {
+                "x": -1120,
+                "y": -170
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 22,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Credenciales\ngestión",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Credenciales\ngestión"
+            ],
+            "id": "e198d5bf-fa6a-4d6d-b76e-761b8bf2bb56",
+            "source": {
+              "cell": "cc8188cb-3a4c-4724-b429-dfe421b7b489",
+              "port": "54899085-7ba3-4de3-b914-8ae0d5359f06"
+            },
+            "target": {
+              "cell": "57915642-07bc-4cdd-9185-711e4ac93527",
+              "port": "39a5392b-64ae-478f-8efe-a4bf1bd77e10"
+            },
+            "vertices": [
+              {
+                "x": -1320,
+                "y": -230
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           }
         ],
         "description": "v1"
