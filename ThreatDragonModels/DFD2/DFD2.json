@@ -1885,8 +1885,8 @@
               "y": -310
             },
             "target": {
-              "x": -1610,
-              "y": -70
+              "x": -1650,
+              "y": -80
             },
             "vertices": [
               {
@@ -1900,55 +1900,6 @@
               {
                 "x": -1310,
                 "y": -90
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 25,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "LAN",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [
-                "928137ba-77e4-4fe2-9357-ffc620f20a04",
-                "70bc1ddb-1c05-4df0-82bc-d426ce58fa0c",
-                "36761d18-ccec-441c-8b39-437b5c0c65a0",
-                "4a745962-9c91-4142-8ef3-6e852c795a93",
-                "95232c61-cdfa-4b1c-87f2-c02bae2a0352",
-                "960bb1cd-3285-4bf5-b35c-9f8a72ed38d7"
-              ],
-              "containedElements": [
-                "d2e11c1c-724e-45b3-8dc6-097a74b14121",
-                "8a8de5af-51b6-45a6-9c32-90aacc7d4a20",
-                "9ad20b65-6cc9-4379-8bfb-abbf921665fa"
-              ]
-            },
-            "labels": [
-              "LAN"
-            ],
-            "id": "f7121b21-bc9c-4eba-81ec-c19fca0545d2",
-            "source": {
-              "x": -310,
-              "y": -620
-            },
-            "target": {
-              "x": -770,
-              "y": 20
-            },
-            "vertices": [
-              {
-                "x": -950,
-                "y": -340
-              },
-              {
-                "x": -1000,
-                "y": -70
               }
             ]
           },
@@ -1978,12 +1929,12 @@
             ],
             "id": "9c79d3d8-d11e-4a82-9be9-c499f1d078ca",
             "source": {
-              "x": -1580,
-              "y": 0
+              "x": -1660,
+              "y": 20
             },
             "target": {
-              "x": -790,
-              "y": 110
+              "x": -640,
+              "y": 170
             },
             "vertices": [
               {
@@ -2307,8 +2258,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "f7121b21-bc9c-4eba-81ec-c19fca0545d2",
-                "9c79d3d8-d11e-4a82-9be9-c499f1d078ca"
+                "9c79d3d8-d11e-4a82-9be9-c499f1d078ca",
+                "f7121b21-bc9c-4eba-81ec-c19fca0545d2"
               ]
             },
             "labels": [
@@ -2382,6 +2333,55 @@
               {
                 "x": -900,
                 "y": -450
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 32,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "LAN",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "928137ba-77e4-4fe2-9357-ffc620f20a04",
+                "70bc1ddb-1c05-4df0-82bc-d426ce58fa0c",
+                "36761d18-ccec-441c-8b39-437b5c0c65a0",
+                "4a745962-9c91-4142-8ef3-6e852c795a93",
+                "95232c61-cdfa-4b1c-87f2-c02bae2a0352",
+                "960bb1cd-3285-4bf5-b35c-9f8a72ed38d7"
+              ],
+              "containedElements": [
+                "d2e11c1c-724e-45b3-8dc6-097a74b14121",
+                "8a8de5af-51b6-45a6-9c32-90aacc7d4a20",
+                "9ad20b65-6cc9-4379-8bfb-abbf921665fa"
+              ]
+            },
+            "labels": [
+              "LAN"
+            ],
+            "id": "f7121b21-bc9c-4eba-81ec-c19fca0545d2",
+            "source": {
+              "x": -310,
+              "y": -620
+            },
+            "target": {
+              "x": -620,
+              "y": 50
+            },
+            "vertices": [
+              {
+                "x": -950,
+                "y": -340
+              },
+              {
+                "x": -1000,
+                "y": -70
               }
             ]
           }
