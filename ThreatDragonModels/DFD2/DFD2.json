@@ -138,8 +138,8 @@
           },
           {
             "position": {
-              "x": -1250,
-              "y": -450
+              "x": -1265.5,
+              "y": -460
             },
             "size": {
               "width": 60,
@@ -404,63 +404,8 @@
             },
             "vertices": [
               {
-                "x": -1060,
-                "y": -340
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Torneo\nGimnastas\nToken JWT",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "48fcabf6-1f93-4dfe-8a06-bc301cf4dce4",
-                "f7121b21-bc9c-4eba-81ec-c19fca0545d2"
-              ]
-            },
-            "labels": [
-              "Torneo\nGimnastas\nToken JWT"
-            ],
-            "id": "70bc1ddb-1c05-4df0-82bc-d426ce58fa0c",
-            "source": {
-              "cell": "d2e11c1c-724e-45b3-8dc6-097a74b14121",
-              "port": "39a5392b-64ae-478f-8efe-a4bf1bd77e10"
-            },
-            "target": {
-              "cell": "13a54e15-563c-4be6-988f-cbc47edeca2d",
-              "port": "02b75e05-e94d-4d2d-a68b-78207351973d"
-            },
-            "vertices": [
-              {
-                "x": -1030,
-                "y": -430
+                "x": -1080,
+                "y": -310
               }
             ]
           },
@@ -617,9 +562,64 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Torneo\nGimnastas\nToken JWT",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "48fcabf6-1f93-4dfe-8a06-bc301cf4dce4",
+                "f7121b21-bc9c-4eba-81ec-c19fca0545d2"
+              ]
+            },
+            "labels": [
+              "Torneo\nGimnastas\nToken JWT"
+            ],
+            "id": "70bc1ddb-1c05-4df0-82bc-d426ce58fa0c",
+            "source": {
+              "cell": "d2e11c1c-724e-45b3-8dc6-097a74b14121",
+              "port": "39a5392b-64ae-478f-8efe-a4bf1bd77e10"
+            },
+            "target": {
+              "cell": "13a54e15-563c-4be6-988f-cbc47edeca2d",
+              "port": "8291f805-4fbb-4ca9-aa36-d1943e9f6319"
+            },
+            "vertices": [
+              {
+                "x": -910,
+                "y": -310
+              }
+            ]
+          },
+          {
             "position": {
-              "x": -1070,
-              "y": -540
+              "x": -1110,
+              "y": -550
             },
             "size": {
               "width": 120,
@@ -1220,8 +1220,8 @@
           },
           {
             "position": {
-              "x": -970,
-              "y": -330
+              "x": -965,
+              "y": -255
             },
             "size": {
               "width": 110,
@@ -1340,8 +1340,8 @@
           },
           {
             "position": {
-              "x": -1010,
-              "y": -140
+              "x": -830,
+              "y": -330
             },
             "size": {
               "width": 120,
@@ -1464,8 +1464,8 @@
           },
           {
             "position": {
-              "x": -823,
-              "y": -180
+              "x": -855,
+              "y": -80
             },
             "size": {
               "width": 120,
@@ -1633,66 +1633,8 @@
             },
             "vertices": [
               {
-                "x": -790,
-                "y": -275
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 20,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Descarga APK",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "48fcabf6-1f93-4dfe-8a06-bc301cf4dce4"
-              ]
-            },
-            "labels": [
-              "Descarga APK"
-            ],
-            "id": "960bb1cd-3285-4bf5-b35c-9f8a72ed38d7",
-            "source": {
-              "cell": "13a54e15-563c-4be6-988f-cbc47edeca2d",
-              "port": "8291f805-4fbb-4ca9-aa36-d1943e9f6319"
-            },
-            "target": {
-              "cell": "8a8de5af-51b6-45a6-9c32-90aacc7d4a20",
-              "port": "27065cb0-a528-4d40-a85b-a677180f3378"
-            },
-            "vertices": [
-              {
-                "x": -1150,
-                "y": -350
-              },
-              {
-                "x": -1030,
-                "y": -230
+                "x": -795,
+                "y": -150
               }
             ]
           },
@@ -1738,7 +1680,7 @@
             "id": "4a745962-9c91-4142-8ef3-6e852c795a93",
             "source": {
               "cell": "d2e11c1c-724e-45b3-8dc6-097a74b14121",
-              "port": "8291f805-4fbb-4ca9-aa36-d1943e9f6319"
+              "port": "91745e32-d599-4aa2-8e87-b8dc913661f5"
             },
             "target": {
               "cell": "57915642-07bc-4cdd-9185-711e4ac93527",
@@ -1746,11 +1688,11 @@
             },
             "vertices": [
               {
-                "x": -970,
-                "y": -200
+                "x": -1110,
+                "y": -180
               },
               {
-                "x": -1110,
+                "x": -1180,
                 "y": -180
               }
             ]
@@ -1890,8 +1832,16 @@
             },
             "vertices": [
               {
+                "x": -1470,
+                "y": -330
+              },
+              {
                 "x": -1250,
                 "y": -260
+              },
+              {
+                "x": -1320,
+                "y": -60
               }
             ]
           },
@@ -1909,12 +1859,15 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "36761d18-ccec-441c-8b39-437b5c0c65a0",
-                "70bc1ddb-1c05-4df0-82bc-d426ce58fa0c",
                 "928137ba-77e4-4fe2-9357-ffc620f20a04",
-                "4a745962-9c91-4142-8ef3-6e852c795a93"
+                "70bc1ddb-1c05-4df0-82bc-d426ce58fa0c",
+                "4a745962-9c91-4142-8ef3-6e852c795a93",
+                "95232c61-cdfa-4b1c-87f2-c02bae2a0352",
+                "960bb1cd-3285-4bf5-b35c-9f8a72ed38d7"
               ],
               "containedElements": [
                 "d2e11c1c-724e-45b3-8dc6-097a74b14121",
+                "8a8de5af-51b6-45a6-9c32-90aacc7d4a20",
                 "9ad20b65-6cc9-4379-8bfb-abbf921665fa"
               ]
             },
@@ -1927,21 +1880,455 @@
               "y": -620
             },
             "target": {
-              "x": -780,
+              "x": -770,
               "y": 20
             },
             "vertices": [
               {
-                "x": -990,
-                "y": -370
+                "x": -950,
+                "y": -340
               },
               {
-                "x": -970,
-                "y": 20
+                "x": -1010,
+                "y": -70
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 26,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Internet\n",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "7a520db1-1328-4cc1-9cf7-dbcc5a49dd9e",
+                "95232c61-cdfa-4b1c-87f2-c02bae2a0352"
+              ],
+              "containedElements": [
+                "77c8984f-1914-4d5a-b6c5-63a9fac20769"
+              ]
+            },
+            "labels": [
+              "Internet\n"
+            ],
+            "id": "9c79d3d8-d11e-4a82-9be9-c499f1d078ca",
+            "source": {
+              "x": -1560,
+              "y": 90
+            },
+            "target": {
+              "x": -790,
+              "y": 110
+            },
+            "vertices": [
+              {
+                "x": -1130,
+                "y": -60
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": -1378,
+              "y": 52
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Público / Anónimo"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "92b7d38b-4144-465a-aef2-51a8e0c18848"
+                },
+                {
+                  "group": "right",
+                  "id": "54899085-7ba3-4de3-b914-8ae0d5359f06"
+                },
+                {
+                  "group": "bottom",
+                  "id": "dd9c38bd-d7a4-47cb-b01e-6e1414994f72"
+                },
+                {
+                  "group": "left",
+                  "id": "7b458b71-61d3-4f4d-847f-6dc9b4606b39"
+                }
+              ]
+            },
+            "id": "b16cc546-ad21-4263-b258-360d5d227742",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Público / Anónimo",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            },
+            "zIndex": 27
+          },
+          {
+            "position": {
+              "x": -1200,
+              "y": -40
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "App \nTablero"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "39a5392b-64ae-478f-8efe-a4bf1bd77e10"
+                },
+                {
+                  "group": "right",
+                  "id": "02b75e05-e94d-4d2d-a68b-78207351973d"
+                },
+                {
+                  "group": "bottom",
+                  "id": "8291f805-4fbb-4ca9-aa36-d1943e9f6319"
+                },
+                {
+                  "group": "left",
+                  "id": "91745e32-d599-4aa2-8e87-b8dc913661f5"
+                }
+              ]
+            },
+            "id": "77c8984f-1914-4d5a-b6c5-63a9fac20769",
+            "data": {
+              "type": "tm.Process",
+              "name": "App \nTablero",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            },
+            "zIndex": 28
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Visualización",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "9c79d3d8-d11e-4a82-9be9-c499f1d078ca"
+              ]
+            },
+            "labels": [
+              "Visualización"
+            ],
+            "id": "7a520db1-1328-4cc1-9cf7-dbcc5a49dd9e",
+            "source": {
+              "cell": "b16cc546-ad21-4263-b258-360d5d227742",
+              "port": "54899085-7ba3-4de3-b914-8ae0d5359f06"
+            },
+            "target": {
+              "cell": "77c8984f-1914-4d5a-b6c5-63a9fac20769",
+              "port": "91745e32-d599-4aa2-8e87-b8dc913661f5"
+            },
+            "zIndex": 29
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 30,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Read Only\nRequest",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "f7121b21-bc9c-4eba-81ec-c19fca0545d2",
+                "9c79d3d8-d11e-4a82-9be9-c499f1d078ca"
+              ]
+            },
+            "labels": [
+              "Read Only\nRequest"
+            ],
+            "id": "95232c61-cdfa-4b1c-87f2-c02bae2a0352",
+            "source": {
+              "cell": "77c8984f-1914-4d5a-b6c5-63a9fac20769",
+              "port": "39a5392b-64ae-478f-8efe-a4bf1bd77e10"
+            },
+            "target": {
+              "cell": "d2e11c1c-724e-45b3-8dc6-097a74b14121",
+              "port": "91745e32-d599-4aa2-8e87-b8dc913661f5"
+            },
+            "vertices": [
+              {
+                "x": -1120,
+                "y": -100
               },
               {
-                "x": -820,
-                "y": 40
+                "x": -1000,
+                "y": -150
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 31,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Descarga APK",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "48fcabf6-1f93-4dfe-8a06-bc301cf4dce4",
+                "f7121b21-bc9c-4eba-81ec-c19fca0545d2"
+              ]
+            },
+            "labels": [
+              "Descarga APK"
+            ],
+            "id": "960bb1cd-3285-4bf5-b35c-9f8a72ed38d7",
+            "source": {
+              "cell": "13a54e15-563c-4be6-988f-cbc47edeca2d",
+              "port": "02b75e05-e94d-4d2d-a68b-78207351973d"
+            },
+            "target": {
+              "cell": "8a8de5af-51b6-45a6-9c32-90aacc7d4a20",
+              "port": "27065cb0-a528-4d40-a85b-a677180f3378"
+            },
+            "vertices": [
+              {
+                "x": -900,
+                "y": -450
               }
             ]
           }
