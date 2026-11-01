@@ -20,92 +20,6 @@
         "version": "2.6.2",
         "cells": [
           {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": -1,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "LAN",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [
-                "36761d18-ccec-441c-8b39-437b5c0c65a0",
-                "70bc1ddb-1c05-4df0-82bc-d426ce58fa0c",
-                "928137ba-77e4-4fe2-9357-ffc620f20a04",
-                "960bb1cd-3285-4bf5-b35c-9f8a72ed38d7",
-                "4a745962-9c91-4142-8ef3-6e852c795a93"
-              ],
-              "containedElements": [
-                "d2e11c1c-724e-45b3-8dc6-097a74b14121",
-                "8a8de5af-51b6-45a6-9c32-90aacc7d4a20",
-                "9ad20b65-6cc9-4379-8bfb-abbf921665fa"
-              ]
-            },
-            "labels": [
-              "LAN"
-            ],
-            "id": "f7121b21-bc9c-4eba-81ec-c19fca0545d2",
-            "source": {
-              "x": -310,
-              "y": -620
-            },
-            "target": {
-              "x": -1010,
-              "y": 20
-            },
-            "vertices": [
-              {
-                "x": -990,
-                "y": -370
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": -1,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Web",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [
-                "928137ba-77e4-4fe2-9357-ffc620f20a04",
-                "4a745962-9c91-4142-8ef3-6e852c795a93"
-              ],
-              "containedElements": [
-                "cc8188cb-3a4c-4724-b429-dfe421b7b489",
-                "b99662d1-6463-414d-a023-3cb2333ae224",
-                "c13cd522-c486-4273-83f4-da3447543418",
-                "57915642-07bc-4cdd-9185-711e4ac93527"
-              ]
-            },
-            "labels": [
-              "Web"
-            ],
-            "id": "db499736-4e3d-48bb-99f6-5383fd8aa40a",
-            "source": {
-              "x": -1680,
-              "y": -310
-            },
-            "target": {
-              "x": -1260,
-              "y": 80
-            },
-            "vertices": [
-              {
-                "x": -1250,
-                "y": -260
-              }
-            ]
-          },
-          {
             "position": {
               "x": -1520,
               "y": -460
@@ -472,8 +386,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "f7121b21-bc9c-4eba-81ec-c19fca0545d2",
-                "48fcabf6-1f93-4dfe-8a06-bc301cf4dce4"
+                "48fcabf6-1f93-4dfe-8a06-bc301cf4dce4",
+                "f7121b21-bc9c-4eba-81ec-c19fca0545d2"
               ]
             },
             "labels": [
@@ -527,8 +441,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "f7121b21-bc9c-4eba-81ec-c19fca0545d2",
-                "48fcabf6-1f93-4dfe-8a06-bc301cf4dce4"
+                "48fcabf6-1f93-4dfe-8a06-bc301cf4dce4",
+                "f7121b21-bc9c-4eba-81ec-c19fca0545d2"
               ]
             },
             "labels": [
@@ -582,8 +496,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "f7121b21-bc9c-4eba-81ec-c19fca0545d2",
-                "db499736-4e3d-48bb-99f6-5383fd8aa40a"
+                "db499736-4e3d-48bb-99f6-5383fd8aa40a",
+                "f7121b21-bc9c-4eba-81ec-c19fca0545d2"
               ]
             },
             "labels": [
@@ -695,7 +609,12 @@
               "cell": "c13cd522-c486-4273-83f4-da3447543418",
               "port": "27065cb0-a528-4d40-a85b-a677180f3378"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": -1400,
+                "y": -170
+              }
+            ]
           },
           {
             "position": {
@@ -823,8 +742,8 @@
           },
           {
             "position": {
-              "x": -1610,
-              "y": -270
+              "x": -1620,
+              "y": -305
             },
             "size": {
               "width": 112.5,
@@ -940,8 +859,8 @@
           },
           {
             "position": {
-              "x": -1610,
-              "y": -120
+              "x": -1620,
+              "y": -230
             },
             "size": {
               "width": 112.5,
@@ -1057,8 +976,8 @@
           },
           {
             "position": {
-              "x": -1420,
-              "y": -50
+              "x": -1480,
+              "y": -140
             },
             "size": {
               "width": 120,
@@ -1181,8 +1100,8 @@
           },
           {
             "position": {
-              "x": -1390,
-              "y": -210
+              "x": -1350,
+              "y": -260
             },
             "size": {
               "width": 60,
@@ -1751,7 +1670,6 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "f7121b21-bc9c-4eba-81ec-c19fca0545d2",
                 "48fcabf6-1f93-4dfe-8a06-bc301cf4dce4"
               ]
             },
@@ -1810,8 +1728,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "f7121b21-bc9c-4eba-81ec-c19fca0545d2",
-                "db499736-4e3d-48bb-99f6-5383fd8aa40a"
+                "db499736-4e3d-48bb-99f6-5383fd8aa40a",
+                "f7121b21-bc9c-4eba-81ec-c19fca0545d2"
               ]
             },
             "labels": [
@@ -1884,6 +1802,10 @@
             },
             "vertices": [
               {
+                "x": -1400,
+                "y": -275
+              },
+              {
                 "x": -1360,
                 "y": -270
               }
@@ -1928,6 +1850,98 @@
               {
                 "x": -1130,
                 "y": -360
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 24,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Web",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "928137ba-77e4-4fe2-9357-ffc620f20a04",
+                "4a745962-9c91-4142-8ef3-6e852c795a93"
+              ],
+              "containedElements": [
+                "cc8188cb-3a4c-4724-b429-dfe421b7b489",
+                "b99662d1-6463-414d-a023-3cb2333ae224",
+                "c13cd522-c486-4273-83f4-da3447543418",
+                "57915642-07bc-4cdd-9185-711e4ac93527"
+              ]
+            },
+            "labels": [
+              "Web"
+            ],
+            "id": "db499736-4e3d-48bb-99f6-5383fd8aa40a",
+            "source": {
+              "x": -1680,
+              "y": -310
+            },
+            "target": {
+              "x": -1600,
+              "y": -10
+            },
+            "vertices": [
+              {
+                "x": -1250,
+                "y": -260
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 25,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "LAN",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "36761d18-ccec-441c-8b39-437b5c0c65a0",
+                "70bc1ddb-1c05-4df0-82bc-d426ce58fa0c",
+                "928137ba-77e4-4fe2-9357-ffc620f20a04",
+                "4a745962-9c91-4142-8ef3-6e852c795a93"
+              ],
+              "containedElements": [
+                "d2e11c1c-724e-45b3-8dc6-097a74b14121",
+                "9ad20b65-6cc9-4379-8bfb-abbf921665fa"
+              ]
+            },
+            "labels": [
+              "LAN"
+            ],
+            "id": "f7121b21-bc9c-4eba-81ec-c19fca0545d2",
+            "source": {
+              "x": -310,
+              "y": -620
+            },
+            "target": {
+              "x": -780,
+              "y": 20
+            },
+            "vertices": [
+              {
+                "x": -990,
+                "y": -370
+              },
+              {
+                "x": -970,
+                "y": 20
+              },
+              {
+                "x": -820,
+                "y": 40
               }
             ]
           }
