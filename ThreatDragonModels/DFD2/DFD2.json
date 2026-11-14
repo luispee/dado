@@ -662,11 +662,11 @@
             },
             "vertices": [
               {
-                "x": -1260,
+                "x": -1250,
                 "y": 130
               },
               {
-                "x": -1190,
+                "x": -1180,
                 "y": 130
               }
             ]
@@ -789,8 +789,8 @@
             },
             "vertices": [
               {
-                "x": -1190,
-                "y": 40
+                "x": -1170,
+                "y": 50
               }
             ]
           },
@@ -887,7 +887,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Datos\nPúblicos",
+              "name": "18. Datos\nPúblicos",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -920,7 +920,7 @@
               }
             },
             "labels": [
-              "Datos\nPúblicos"
+              "18. Datos\nPúblicos"
             ],
             "id": "ae0d50be-cd4b-4d1c-a639-d9e7df25927c",
             "source": {
@@ -2102,12 +2102,6 @@
               "x": -680,
               "y": -660
             },
-            "vertices": [
-              {
-                "x": -1130,
-                "y": -360
-              }
-            ],
             "tools": {
               "items": [
                 "boundary",
@@ -2117,7 +2111,13 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": [
+              {
+                "x": -1130,
+                "y": -360
+              }
+            ]
           },
           {
             "shape": "trust-boundary-curve",
@@ -2333,8 +2333,8 @@
           },
           {
             "position": {
-              "x": -1340,
-              "y": 40
+              "x": -1330,
+              "y": 30
             },
             "size": {
               "width": 60,
@@ -2487,21 +2487,21 @@
                   "id": "97180c8e-e1c3-421c-af13-5c71c0e1abd2",
                   "title": "New STRIDE threat",
                   "status": "Open",
-                  "severity": "TBD",
-                  "type": "Information disclosure",
+                  "severity": "Medium",
+                  "type": "Denial of service",
                   "description": "Provide a description for this threat",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 5,
-                  "score": ""
+                  "score": "8.8"
                 }
               ],
               "trustBoundaryIds": [],
               "threatFrequency": {
                 "tampering": 0,
                 "informationDisclosure": 1,
-                "denialOfService": 0
+                "denialOfService": 2
               }
             },
             "labels": [
@@ -2516,7 +2516,12 @@
               "cell": "77c8984f-1914-4d5a-b6c5-63a9fac20769",
               "port": "91745e32-d599-4aa2-8e87-b8dc913661f5"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": -1390,
+                "y": 90
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -2682,139 +2687,19 @@
               "y": -470
             },
             "target": {
-              "x": -500,
-              "y": -40
+              "x": -380,
+              "y": -60
             },
             "vertices": [
               {
-                "x": -950,
-                "y": -340
+                "x": -960,
+                "y": -350
               },
               {
-                "x": -970,
+                "x": -1010,
                 "y": -90
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "position": {
