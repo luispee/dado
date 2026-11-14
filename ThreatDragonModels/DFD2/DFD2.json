@@ -2102,16 +2102,6 @@
               "x": -680,
               "y": -660
             },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            },
             "vertices": [
               {
                 "x": -1130,
